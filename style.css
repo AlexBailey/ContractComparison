@@ -1,0 +1,146 @@
+@font-face {
+	font-family: 'bebas_neueregular';
+	src: url("font/BebasNeue-webfont.eot");
+	src: url("font/BebasNeue-webfont.eot?#iefix") format('embedded-opentype'), url("font/BebasNeue-webfont.woff") format('woff'), url("font/BebasNeue-webfont.ttf") format('truetype'), url("font/BebasNeue-webfont.svg#bebas_neueregular") format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+h1 {
+	color:#000000;
+	font-family: "bebas_neueregular", Tahoma, sans-serif;
+	font-weight: bold;
+	font-size: 48px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h2 {
+	color:#000000;
+	font-family: "Helvetica", Tahoma, sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+table {
+	width:750px;
+}
+
+th {
+	height: 50px;
+	font-family: "Helvetica", Tahoma, sans-serif;
+	font-size: 14px;
+	text-align: center;
+	font-weight: normal;
+}
+
+th.vodafone {
+	background-color: #ef001f;
+	color: #ffffff;
+}
+
+th.ee {
+	background-color: #038f90;
+	color: #fee600;
+}
+
+th.o2 {
+	background-color: #1d2673;
+	color: #ffffff;
+}
+
+th.three {
+	background-color: gray;
+	color: #000000;
+}
+
+td {
+	height:50px;
+	background-color: #d1e8fe;
+	color:#666666;
+	font-family: "Helvetica", Tahoma, sans-serif;
+	font-size: 14px;
+	text-align:center;
+}
+
+td.set {
+	background-color: #89c1f5;
+	font-weight: bold;
+	color: #000000;
+}
+
+div.form {
+	width: 1040px;
+	margin-top: 75px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+select, input {
+	font-family: "bebas_neueregular", Tahoma, sans-serif;
+	font-size: 48px;
+	margin-left: 1px;
+	margin-right: 1px;
+	margin-bottom: 25px;
+	background: #ffffff;
+	padding: 10px;
+	line-height: 1;
+	border: 3px;
+	border-style: solid;
+	border-color: #000000;
+	border-radius: 0px;
+	-webkit-appearance: none;
+}
+
+.index span {
+	color:#000000;
+	font-family: "bebas_neueregular", Tahoma, sans-serif;
+	font-size: 48px;
+	text-transform: uppercase;
+}
+
+span.error {
+	color: red;
+	font-family: "bebas_neueregular", Tahoma, sans-serif;
+	font-size: 24px;
+}
+
+form.index {
+	margin-bottom: 25px;
+}
+
+div.table {
+	width:750px;
+	margin-top: 75px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+	padding: 15px;
+	border: 3px;
+	border-style: solid;
+	border-color: #000000;
+	border-radius: 0px;
+}
+
+div.back {
+	font-family: "bebas_neueregular", Tahoma, sans-serif;
+	font-size: 48px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 220px;
+	background: #ffffff;
+	padding: 10px;
+	border: 3px;
+	border-style: solid;
+	border-color: #000000;
+	border-radius: 0px;
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}

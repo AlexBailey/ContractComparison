@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="sony24.xsl"?>
+<!DOCTYPE tariff [
+<!ELEMENT tariff (category)+>
+<!ELEMENT category (set, vodafone, ee, o2, three)>
+<!ELEMENT set (#PCDATA)>
+<!ELEMENT vodafone (#PCDATA)>
+<!ELEMENT ee (#PCDATA)>
+<!ELEMENT o2 (#PCDATA)>
+<!ELEMENT three (#PCDATA)>
+]>
+<tariff>
+	<category>
+		<set>Monthly</set>
+		<vodafone>£48.50</vodafone>
+		<ee>£45.99</ee>
+		<o2>£43.00</o2>
+		<three>£35.00</three>
+	</category>
+	<category>
+		<set>Handset</set>
+		<vodafone>Free</vodafone>
+		<ee>£9.99</ee>
+		<o2>Free</o2>
+		<three>£9.00</three>
+	</category>
+	<category>
+		<set>Texts</set>
+		<vodafone>Unlimited</vodafone>
+		<ee>Unlimited</ee>
+		<o2>Unlimited</o2>
+		<three>Unlimited</three>
+	</category>
+	<category>
+		<set>Minutes</set>
+		<vodafone>Unlimited</vodafone>
+		<ee>Unlimited</ee>
+		<o2>Unlimited</o2>
+		<three>Unlimited</three>
+	</category>
+	<category>
+		<set>Data</set>
+		<vodafone>7GB</vodafone>
+		<ee>5GB</ee>
+		<o2>5GB</o2>
+		<three>2GB</three>
+	</category>
+</tariff>
